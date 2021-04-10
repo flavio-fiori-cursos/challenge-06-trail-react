@@ -1,1 +1,25 @@
-// TODO
+.header {
+
+    width: 100%;
+    display: block;
+    padding: 2rem 0;
+
+    figure {
+
+        transition: filter .2s ease-in-out;
+
+        &:hover {
+
+            filter: brightness(.5);
+
+        }
+
+        img {
+
+            max-width: 100%;
+
+        }
+
+    }
+
+}

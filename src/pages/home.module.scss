@@ -1,1 +1,63 @@
-// TODO
+.post {
+
+    width: 100%;
+    display: block;
+    padding: 1rem 0;
+
+    & + .post {
+
+        margin-top: 1rem;
+
+    }
+
+    strong {
+
+        display: block;
+        font-weight: 700;
+        font-size: 2rem;
+        color: var(--heading);
+        line-height: 1.4;
+        margin-bottom: .5rem;
+
+    }
+
+    p {
+
+        display: block;
+        text-align: justify;
+        color: var(--body);
+        font-size: 1.125rem;
+        margin-bottom: 1rem;
+    }
+    
+    time, span {
+
+        svg {
+            margin-right: 0.5rem;
+        }
+        
+        color: var(--info);
+        font-size: 1.125rem;
+        padding-right: .5rem;
+
+    }
+
+}
+
+.btnMorePost {
+
+    color: var(--highlight);
+    font-size: 1.125rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    padding: 1rem 0;
+    transition: filter .2s ease-in-out;
+
+
+    &:hover {
+
+        filter: brightness(.5);
+
+    }
+
+}
